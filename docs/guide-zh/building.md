@@ -32,12 +32,3 @@ mvn clean verify -Pmc-26.3
 
 任选一条命令，产物位于 `target/`。不指定 profile 时默认构建 26.2。
 
-## 找不到 Maven
-
-如果 Maven 没有加入终端路径，可以指定其可执行文件。macOS 使用 IDEA 内置 Maven 的示例：
-
-```bash
-CER_MAVEN='/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/mvn' ./build-all.sh
-```
-
-请按实际安装位置修改。Java 版本不符时，通过 `JAVA_HOME` 指向你的 JDK 25 或更高版本，再构建。
