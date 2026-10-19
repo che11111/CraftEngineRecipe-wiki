@@ -21,15 +21,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div className="cer-demos">
   <figure>
-    <figcaption><strong>页面展示</strong></figcaption>
-    <a href={useBaseUrl('/img/202610291172005.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291172005.gif')} alt="Page Display Demo" />
+    <figcaption><strong>菜单展示</strong><br /><small>按命名空间分类与按合成器分类</small></figcaption>
+    <a href={useBaseUrl('/img/Menu_Display.gif')} target="_blank" rel="noopener noreferrer">
+      <img src={useBaseUrl('/img/Menu_Display.gif')} alt="菜单展示：按命名空间分类与按合成器分类" />
     </a>
   </figure>
   <figure>
-    <figcaption><strong>搜索展示</strong></figcaption>
-    <a href={useBaseUrl('/img/202610291192714.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291192714.gif')} alt="Search Display Demo" />
+    <figcaption><strong>功能展示</strong><br /><small>手持查询、准星查询与搜索框</small></figcaption>
+    <a href={useBaseUrl('/img/Feature_Display.gif')} target="_blank" rel="noopener noreferrer">
+      <img src={useBaseUrl('/img/Feature_Display.gif')} alt="功能展示：查询手持物品配方、查询准星目标配方与搜索" />
     </a>
   </figure>
 </div>

@@ -34,8 +34,8 @@ const guides = [
 
 function Showcase() {
   const [playing, setPlaying] = useState(false);
-  const screenshot = useBaseUrl('/img/2.png');
-  const demo = useBaseUrl('/img/202610291172005.gif');
+  const screenshot = useBaseUrl('/img/1.png');
+  const demo = useBaseUrl('/img/Menu_Display.gif');
 
   return (
     <figure className={styles.showcase}>
@@ -49,7 +49,7 @@ function Showcase() {
       <div className={styles.preview}>
         <img
           src={playing ? demo : screenshot}
-          alt={playing ? 'Plugin demo: browse categories, find recipes, and return to the menu' : 'In-game crafting recipe showing the ingredients and result'}
+          alt={playing ? 'Menu showcase: browse items by namespace and workstation type' : 'In-game crafting recipe showing the ingredients and result'}
           width="1338"
           height="944"
           fetchPriority="high"

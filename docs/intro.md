@@ -21,15 +21,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div className="cer-demos">
   <figure>
-    <figcaption><strong>Page Display</strong></figcaption>
-    <a href={useBaseUrl('/img/202610291172005.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291172005.gif')} alt="Page Display Demo" />
+    <figcaption><strong>Menu Showcase</strong><br /><small>Namespace and workstation layouts</small></figcaption>
+    <a href={useBaseUrl('/img/Menu_Display.gif')} target="_blank" rel="noopener noreferrer">
+      <img src={useBaseUrl('/img/Menu_Display.gif')} alt="Menu showcase: namespace and workstation layouts" />
     </a>
   </figure>
   <figure>
-    <figcaption><strong>Search Display</strong></figcaption>
-    <a href={useBaseUrl('/img/202610291192714.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291192714.gif')} alt="Search Display Demo" />
+    <figcaption><strong>Feature Showcase</strong><br /><small>Main-hand lookup, target lookup, and search</small></figcaption>
+    <a href={useBaseUrl('/img/Feature_Display.gif')} target="_blank" rel="noopener noreferrer">
+      <img src={useBaseUrl('/img/Feature_Display.gif')} alt="Feature showcase: main-hand recipe lookup, target recipe lookup, and search" />
     </a>
   </figure>
 </div>
