@@ -21,6 +21,7 @@ sidebar_label: Changelog
 ### Fixes and Improvements
 
 - Main-hand and target-block lookups now play separate success and failure sounds, without extra click, opening, or closing sounds.
+- Category or page navigation at an edge, and left- or right-clicks on items with no recipe to open, reuse `sounds.query-failure` and play the failure sound only once per action.
 - Fixed sound formats with volume and pitch, such as `UI_BUTTON_CLICK-1-2`. Menu opening and closing sounds are configured under `sounds.open-menu` and `sounds.close-menu`.
 - Fixed overlapping sounds when changing pages. Category navigation, item paging, and Back can use separate sounds.
 - The workstation browser follows the category bar layout, supports pagination, and respects permissions and hiding rules.
@@ -33,6 +34,5 @@ sidebar_label: Changelog
 - Added experimental Folia support. Temporary OP button actions are disabled on Folia.
 - One codebase builds separate JARs for Minecraft 26.1.2, 26.2, and 26.3, each with the matching menu dependency.
 - Adjusted platform and version declarations to improve Modrinth's detection of Paper, Folia, and supported versions.
-- Set the plugin authors to che1s and nsoer, with resource pack credits ordered as nsoer, then che1s.
 
 Read [Updating the Plugin](./updating.md) before updating, especially the resource pack steps.

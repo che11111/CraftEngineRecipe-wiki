@@ -32,12 +32,3 @@ mvn clean verify -Pmc-26.3
 
 Choose one command. Its JAR is written to `target/`. Without a profile, the default target is 26.2.
 
-## Maven Not Found
-
-If Maven is not on your terminal's PATH, specify its executable. For example, to use IDEA's bundled Maven on macOS:
-
-```bash
-CER_MAVEN='/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/mvn' ./build-all.sh
-```
-
-Adjust the path to your installation. If Java is too old, set `JAVA_HOME` to your JDK 25 or newer installation before building.

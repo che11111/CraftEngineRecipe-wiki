@@ -23,13 +23,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <figure>
     <figcaption><strong>Page Display</strong></figcaption>
     <a href={useBaseUrl('/img/202610291172005.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291172005.gif')} alt="Page Display Demo" style={{width: '439px'}} />
+      <img src={useBaseUrl('/img/202610291172005.gif')} alt="Page Display Demo" />
     </a>
   </figure>
   <figure>
     <figcaption><strong>Search Display</strong></figcaption>
     <a href={useBaseUrl('/img/202610291192714.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291192714.gif')} alt="Search Display Demo" style={{width: '452.5px'}} />
+      <img src={useBaseUrl('/img/202610291192714.gif')} alt="Search Display Demo" />
     </a>
   </figure>
 </div>
@@ -94,10 +94,9 @@ The administrator permission is `craftenginerecipe.admin`. OPs have it by defaul
 
 ## Usage Statistics
 
-[View usage statistics on bStats](https://bstats.org/plugin/bukkit/CraftEngineRecipe/34772). To disable them, set `bstats.enabled: false` in `config.yml` and run `/cer reload`.
+[View usage statistics on bStats](https://bstats.org/plugin/bukkit/CraftEngineRecipe/34772). 
 
 ## Credits
 
 This project is a derivative work of nsoer’s CEGUI-1.0.0.jar, with many additional features and improvements. Special thanks to nsoer for granting permission to use portions of the original code and texture assets.
 
-Thanks to ChatGPT Astra for its help, and especially to DeepSeek, whose outage on October 15 resulted in a CNY 160 credit for me.

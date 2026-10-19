@@ -10,7 +10,6 @@ sidebar_label: 环境要求
 | Java | Java 25 或更高版本 |
 | 服务端 | Paper / Folia；按下表选择 JAR |
 | 必装插件 | 与服务端版本兼容的 CraftEngine；本项目按 `26.8.1` 编译 |
-| 其他依赖 | 已包含 InvUI、拼音搜索与 bStats，无需另装 |
 
 | 服务端版本 | 下载的 JAR 后缀 |
 | --- | --- |

@@ -35,7 +35,6 @@ Crafting table, furnace, blast furnace, smoker, campfire, stonecutter, smithing 
 
 This page follows the same category permissions and hiding rules. It lists loaded recipes with fixed outputs, including smithing upgrades. Recipes whose results depend on the input, such as smithing trims, are omitted here.
 
-The default first row, `"<CCCCCCC>"`, has 7 `C` slots. **Use the right category arrow to see the 8th workstation.** This page shares the main menu's layout and keeps both arrow slots available.
 
 ## Search
 

@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'CraftEngineRecipe',
-  tagline: '浏览物品，查找配方。',
+  tagline: 'Browse items. Find recipes.',
   favicon: 'img/CraftEngineRecipe-32x.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -24,8 +24,8 @@ const config: Config = {
   onBrokenLinks: 'throw',
 
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   themes: [
@@ -74,17 +74,17 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'chineseSidebar',
-          position: 'left',
-          label: '中文指南',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'englishSidebar',
           position: 'left',
           label: 'English Guide',
         },
-        {to: '/docs/guide-zh/changelog', label: '更新日志', position: 'right'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'chineseSidebar',
+          position: 'left',
+          label: '中文指南',
+        },
+        {to: '/docs/guide/changelog', label: 'Changelog', position: 'right'},
         {href: 'https://github.com/che11111/CraftEngineRecipe', label: 'GitHub', position: 'right'},
       ],
     },
@@ -92,15 +92,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '使用指南',
-          items: [
-            {label: '快速开始', to: '/docs/guide-zh/getting-started'},
-            {label: '更新插件', to: '/docs/guide-zh/updating'},
-            {label: '常见问题', to: '/docs/guide-zh/troubleshooting'},
-          ],
-        },
-        {
-          title: 'English',
+          title: 'User Guide',
           items: [
             {label: 'Getting started', to: '/docs/guide/getting-started'},
             {label: 'Updating', to: '/docs/guide/updating'},
@@ -108,10 +100,18 @@ const config: Config = {
           ],
         },
         {
-          title: '项目',
+          title: '中文指南',
           items: [
-            {label: '插件源码', href: 'https://github.com/che11111/CraftEngineRecipe'},
-            {label: 'Wiki 源码', href: 'https://github.com/che11111/CraftEngineRecipe-wiki'},
+            {label: '快速开始', to: '/docs/guide-zh/getting-started'},
+            {label: '更新插件', to: '/docs/guide-zh/updating'},
+            {label: '常见问题', to: '/docs/guide-zh/troubleshooting'},
+          ],
+        },
+        {
+          title: 'Project',
+          items: [
+            {label: 'Plugin source', href: 'https://github.com/che11111/CraftEngineRecipe'},
+            {label: 'Wiki source', href: 'https://github.com/che11111/CraftEngineRecipe-wiki'},
           ],
         },
       ],

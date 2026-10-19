@@ -22,17 +22,19 @@ sounds:
 
 | Setting | When it plays |
 | --- | --- |
-| `change-category` | Previous/next arrows in the top category bar |
-| `change-page` | Previous/next item page |
-| `click` | Selecting a category or opening an item's recipe |
+| `change-category` | Successfully moving to the previous/next category |
+| `change-page` | Successfully moving to the previous/next item page |
+| `click` | Successfully entering a category or opening an item's recipe |
 | `back` | Returning to a parent or from a recipe |
 | `search` | Opening the search dialog |
 | `query-success` | Main-hand or target-block lookup opens a recipe |
-| `query-failure` | Main-hand or target-block lookup fails |
+| `query-failure` | A lookup fails, navigation reaches an edge, or an item has no recipe to open |
 | `open-menu` | Entering through a command or shortcut |
 | `close-menu` | Leaving the menu or recipe page |
 
-Internal paging, category changes, and recipe rotation do not play extra opening or closing sounds. Category and page arrows are silent when they cannot move further.
+Internal paging, category changes, and recipe rotation do not play extra opening or closing sounds.
+
+Category or page arrows that cannot move further, and left- or right-clicks on items with no recipe to open, play `query-failure` once, without a success sound. Successful actions still play their corresponding `change-category`, `change-page`, or `click` sound.
 
 `/cer hand`, `/cer target`, and their hand and glasses buttons share these lookup sounds. An empty hand, no targeted block, no recipe, or a permission or hiding restriction plays the failure sound. Opening a recipe plays the success sound. Each lookup plays only its result sound, without adding a normal click, menu opening, or closing sound. Closing the page afterward still plays `close-menu`.
 

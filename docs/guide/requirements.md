@@ -10,7 +10,7 @@ sidebar_label: Requirements
 | Java | Java 25 or newer |
 | Server | Paper / Folia; choose a JAR from the table below |
 | Required plugin | A CraftEngine release compatible with your server; this project compiles against `26.8.1` |
-| Other dependencies | InvUI, pinyin search, and bStats are bundled; no separate installation needed |
+
 
 | Server version | JAR filename suffix |
 | --- | --- |

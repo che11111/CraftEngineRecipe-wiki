@@ -27,14 +27,15 @@
   }
 }
 
-/* Quarter-size GIFs avoid the heavy downscaling of the two-column table. */
 .cer-demos {
   display: grid;
-  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
   margin-block: 1.5rem;
 }
 
 .cer-demos figure {
+  min-width: 0;
   margin: 0;
   text-align: center;
 }
@@ -45,6 +46,7 @@
 
 .cer-demos img {
   display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
   margin-inline: auto;

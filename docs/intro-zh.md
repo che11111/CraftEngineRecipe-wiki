@@ -23,13 +23,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <figure>
     <figcaption><strong>页面展示</strong></figcaption>
     <a href={useBaseUrl('/img/202610291172005.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291172005.gif')} alt="Page Display Demo" style={{width: '439px'}} />
+      <img src={useBaseUrl('/img/202610291172005.gif')} alt="Page Display Demo" />
     </a>
   </figure>
   <figure>
     <figcaption><strong>搜索展示</strong></figcaption>
     <a href={useBaseUrl('/img/202610291192714.gif')} target="_blank" rel="noopener noreferrer">
-      <img src={useBaseUrl('/img/202610291192714.gif')} alt="Search Display Demo" style={{width: '452.5px'}} />
+      <img src={useBaseUrl('/img/202610291192714.gif')} alt="Search Display Demo" />
     </a>
   </figure>
 </div>
@@ -95,10 +95,9 @@ Java **25**、Minecraft **26.1.2 / 26.2 / 26.3** 对应的 **Paper / Folia**，�
 
 ## 使用统计
 
-[查看 bStats 使用统计](https://bstats.org/plugin/bukkit/CraftEngineRecipe/34772)。如需关闭，在 `config.yml` 中设置 `bstats.enabled: false` 后执行 `/cer reload`。
+[查看 bStats 使用统计](https://bstats.org/plugin/bukkit/CraftEngineRecipe/34772)。
 
 ## 鸣谢
 
 本项目是对于nsoer的CEGUI-1.0.0.jar项目的二次开发，在此基础上增加了很多功能，感谢nsoer对于部分代码以及部分贴图文件的授权。
 
-感谢ChatGPT Astra的帮助，尤其感谢DeepSeek在10月15日的崩溃使我收到了来自他的160元赠金。
